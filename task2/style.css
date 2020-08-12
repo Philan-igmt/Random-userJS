@@ -1,0 +1,25 @@
+.card {
+  width: 30%;
+  min-width: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#everything {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.heading {
+  height: 200px;
+  width: 100%;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRKMwqeZUP8bU6f1OfLk1RhjrB7GKT5BF_qTQ&usqp=CAU");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
